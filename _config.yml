@@ -86,6 +86,8 @@ social:
 # Analytics
 analytics:
   provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  disqus:
+    shortname            : Hanyunseong Blog # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   google:
     tracking_id          :
     anonymize_ip         : # true, false (default)
@@ -94,7 +96,7 @@ analytics:
 # Site Author
 author:
   name             : "한윤성"
-  avatar           : # path of avatar image, e.g. "/assets/images/profile_img.jpg"
+  avatar           : "/assets/images/profile_img.jpg"
   bio              : "성장을 위해 노력하는 개발자입니다. <br> 블로그 포스트에 잘못된 부분이나 수정해야 할 부분 피드백 주시면 감사하겠습니다."
   location         : "Incheon, Republic of Korea"
   email            : "gksdbstjd1525@gmail.com"
@@ -121,24 +123,24 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: "gksdbstjd1525@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://hanyunseong.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
+      url: "https://github.com/HANYUNSEONG"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://instagram.com/yun_seong2"
 
 
 # Reading Files
